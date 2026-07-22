@@ -1,7 +1,7 @@
 
 ## Philosophy 
 
-![[Pasted image 20260718231825.png]]
+![Linux philosophy](Pasted%20image%2020260718231825.png)
 
 ## Components 
 
@@ -11,7 +11,7 @@ Daemons- Background services are called "daemons" in Linux.
 
 ## File Hierarchy 
 
-![[Pasted image 20260718232155.png]]
+![Linux file hierarchy](Pasted%20image%2020260718232155.png)
 
 |**Path**|**Description**|
 |---|---|

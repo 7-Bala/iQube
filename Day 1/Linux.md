@@ -30,3 +30,4 @@ Daemons- Background services are called "daemons" in Linux.
 |`/tmp`|The operating system and many programs use this directory to store temporary files. This directory is generally cleared upon system boot and may be deleted at other times without any warning.|
 |`/usr`|Contains executables, libraries, man files, etc.|
 |`/var`|This directory contains variable data files such as log files, email in-boxes, web application related files, cron files, and more.|
+

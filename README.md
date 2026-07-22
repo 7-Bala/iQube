@@ -98,6 +98,33 @@ history a straight line instead of adding a merge commit.
 
 ---
 
+## Syncing from inside Obsidian
+
+The [Obsidian Git](https://github.com/Vinzent03/obsidian-git) plugin is installed and
+handles commit, pull, and push without leaving the app.
+
+Because this repo sits *below* the vault root, the plugin needs
+**Settings -> Git -> Advanced -> Custom base path** set to:
+
+```
+Users/bala/Documents/iQube
+```
+
+Without it the plugin reports "Can't find a valid git repository", since the vault
+root itself has no `.git`.
+
+Current configuration:
+
+| Setting | Value |
+| --- | --- |
+| Auto commit-and-sync interval | 5 minutes |
+| Auto commit-and-sync after stopping file edits | On |
+| Auto pull interval | 10 minutes |
+
+It only runs while Obsidian is open. When it's closed, use the manual steps above.
+
+---
+
 ## Repo setup
 
 Remote is `origin` → `https://github.com/7-Bala/iQube.git`, branch `main`.

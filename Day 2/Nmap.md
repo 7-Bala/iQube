@@ -32,4 +32,11 @@ flag used : `-sS`
 
 Where TCP scans perform a full three-way handshake with the target, SYN scans sends back a RST TCP packet after receiving a SYN/ACK from the server (this prevents the server from repeatedly trying to make the request). In other words, the sequence for scanning an **open** port looks like this:
 
+- **You:** `SYN` (_"Hello, can we talk?"_)
+    
+- **Server:** `SYN/ACK` (_"Yes, I'm listening!"_)
+    
+- **You:** `RST` (_"Never mind, cancel!"_)
+
+
 ![](https://assets.tryhackme.com/additional/imgur/cPzF0kU.png)

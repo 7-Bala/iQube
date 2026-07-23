@@ -40,3 +40,7 @@ Where TCP scans perform a full three-way handshake with the target, SYN scans 
 
 
 ![](https://assets.tryhackme.com/additional/imgur/cPzF0kU.png)
+
+
+Finished upto SYN Scans in nmap in thm
+![[Pasted image 20260723231116.png]]

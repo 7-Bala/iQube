@@ -11,3 +11,8 @@ Peer-to-Peer (P2P) Model:
 -  has equal power and acts as **both a client and a server simultaneously**.
 
 **Real-World Example:** BitTorrent. When you download a movie via a torrent, you aren't downloading it from one central server. You are downloading tiny pieces of the file from dozens of other users, while simultaneously uploading pieces you already have to other users.
+
+diff b/w inter&intranet:
+
+the Internet is a public, global network open to everyone, while an Intranet is a private, restricted network for a specific group or organization
+

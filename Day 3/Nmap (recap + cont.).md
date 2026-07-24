@@ -43,3 +43,29 @@ Before diving into UDP, Nmap focuses on how TCP connections work and how we can 
     - **Pros:** Faster and much stealthier than Connect scans.
         
     - **Cons:** Requires root privileges (to craft raw packets) and can still be detected by modern Intrusion Detection Systems (IDS).
+
+
+
+## Cont.
+
+tcp - stateful - 3 way handshake
+udp- stateless - fires packets continously - ***HOPE***
+
+## Nmap UDP Scans
+
+1. Open - a udp payload is received - occurance : **Very rare.** If the listening service actually sends back a UDP data packet in reply, Nmap knows with 100% certainty that the port is active and labels it **open**.
+
+2. Open | Filtered - No Response ,Timeout - Because UDP doesn't require acknowledgments, a lack of response could mean two things:
+				1. The packet reached an open port, but the service simply ignored it.
+				2. A firewall silently dropped the packet.
+	since Nmap cannot tell which scenario occurred—even after sending a second check packet—it marks the port as **open|filtered**.
+
+3. Closed - ICMP Port Unreachable 
+
+## Optimize UDP Scans
+
+`sudo nmap -sU --top-ports 20 <target>`
+
+scanning every udp port is very slow , so good practices involve like scanning the frequently used ports , so the flag for that is --top-ports
+
+

@@ -68,4 +68,6 @@ udp- stateless - fires packets continously - ***HOPE***
 
 scanning every udp port is very slow , so good practices involve like scanning the frequently used ports , so the flag for that is --top-ports
 
+## Stealth Scans
 
+**NULL Scan (`-sN`)**

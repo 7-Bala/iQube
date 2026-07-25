@@ -27,3 +27,8 @@ pass: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 
 ## L14 to L15
 
+- `nc` - netcat command-line tool used for reading and writing raw data across network connections (TCP/UDP)
+- `telnet` - protocol and command-line tool used to interactively communicate with a remote server/port
+- `localhost` - loopback IP address (`127.0.0.1`) representing the local host machine
+
+`pass` - `pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7`

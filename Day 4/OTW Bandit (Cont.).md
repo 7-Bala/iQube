@@ -19,3 +19,11 @@
 
 ## L13 to L14
 
+- `ssh` - secure shell client used for logging into and executing commands on a remote machine
+- `ssh -i` - option flag specifying an identity file (private key) for SSH authentication
+- `chmod` - change file mode bits / permissions (e.g., `chmod 600` restricts access to owner read/write only)
+
+pass: aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+
+## L14 to L15
+

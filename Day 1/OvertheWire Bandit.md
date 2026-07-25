@@ -1,7 +1,7 @@
 ## L0 to L1
 
 ls - list files in the working dir
-cat - display full content of the file
+cat - display the content of the file
 pass: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
 ## L1 to L2
@@ -88,8 +88,4 @@ For decompressing it,
 `bzip2 -d data6.bz2`
 
 pass: qQYQiHOBPR8zR61qxYqX45quvihF2uzk
-
-
-
-
 

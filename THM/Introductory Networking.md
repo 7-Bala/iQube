@@ -1,5 +1,4 @@
 
-# Introductory Networking
 
 Networking is the base for everything in cybersecurity
 

@@ -44,6 +44,6 @@ so config user and user mail provided user :root ,mail :root@picoctf
 ## bytemancy 1
 
 ```
-python3 -c "print('e' * 1751)" | nc foggy-cliff.picoctf.net 56090
+python3 -c "print('e' * 1751)" | nc foggy-cliff.picoctf.net {port_number}
 ```
 -c is used to run without saving the file 

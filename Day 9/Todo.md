@@ -1,1 +1,2 @@
-networking, os, cisco packet tracer 
+revise Networking, OS
+study about  cisco packet tracer 

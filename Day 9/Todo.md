@@ -11,3 +11,10 @@ and done connections and explored the application like how to open cmd in cisco 
 and connected pc to switch 
  multiple pc to switch  
  switch to switch
+
+## Cisco pactket tracer file types
+
+.pka -> Packet Tracer Activity file
+.pkt -> The .pkt file type is created when a simulated network is built in Packet Tracer and saved.
+.pksz
+.pkz

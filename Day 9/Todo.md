@@ -16,5 +16,5 @@ and connected pc to switch
 
 .pka -> Packet Tracer Activity file
 .pkt -> The .pkt file type is created when a simulated network is built in Packet Tracer and saved.
-.pksz
-.pkz
+.pksz -> The .pksz file type is specific to Packet Tracer Tutored Activities (PTTA).
+.pkz -> {deprecated} This file type was previously used to embed images and other files 

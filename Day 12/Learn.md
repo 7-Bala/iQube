@@ -41,4 +41,8 @@ echo "Hello Linux" > notes.txt put the text inside the double quotes in the spec
 
 cat prints the output
 
-directory -
+directory - A **directory** is a filesystem object used to organize and reference other filesystem objects.
+
+filesystem - A file system is ==the method and data structure that an operating system uses to control how data is stored, organized, and retrieved on storage devices like hard drives, SSDs, and USB sticks==. Without it, data would be a single chaotic mass of blocks.
+
+![[Pasted image 20260818185527.png]]

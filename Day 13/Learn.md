@@ -13,3 +13,13 @@ in -rwxr-xr--
 │     │     └───────── group
 │    └──────────────── owner └────────────────────── file type
 
+### rwx - different for dirs
+
+![[Pasted image 20260819183206.png]]
+
+to overwrite the entire file :
+echo "target text" > secret.txt
+
+to append the target text at the end of the file :
+echo "target text" >> secret.txt
+

@@ -122,5 +122,5 @@ a = all
 numeric:
 r = 4
 w = 2
-x = 
+x = 1
 

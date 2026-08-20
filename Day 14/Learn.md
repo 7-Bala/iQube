@@ -38,3 +38,7 @@ chown :developers file
 
 chgrp developers file
 → change group
+
+## UMask
+
+Umask (user file-creation mode mask) is ==a command and setting in Unix-like operating systems that defines the default permission bits subtracted from newly created files and directories==. It acts as a safety net to restrict default access rights.

@@ -102,20 +102,19 @@ system call -> user space -> kernel space
 ### Types of OS
 
 batch OS -> jobs executed in batches, little user interaction
+example -> IBM OS/360
 
 time-sharing OS -> CPU time shared between multiple processes/users
+example -> UNIX, Linux, Windows, macOS
 
 real-time OS -> predictable response within a required time
-used in robotics, cars, industrial systems
-sensor detects event
-       ↓
-RTOS
-       ↓
-respond within required time
+example -> FreeRTOS, VxWorks, QNX
 
 distributed OS -> multiple computers work together as one coordinated system
+example -> Amoeba, Plan 9
 
 network OS -> provides/manages network resources and services
+example -> Windows Server, Novell NetWare
 
 embedded OS -> designed for a specific device/purpose used in tv, embedded systems such as washing machines , routers, car systems and other iot devices too
-
+example -> Embedded Linux, Zephyr, FreeRTOS

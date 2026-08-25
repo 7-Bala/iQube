@@ -82,6 +82,9 @@ separation is mainly for security and system stability
 
 system call -> way for a program to request a service from the kernel
 
+==**A system call is not just a normal function call. It uses a special CPU mechanism to safely transition from user mode into kernel mode.**==
+
+
 user program -> system call -> kernel -> resource
 
 examples:
@@ -95,4 +98,24 @@ wait() -> wait for process
 
 normal function -> stays in user space
 system call -> user space -> kernel space
+
+### Types of OS
+
+batch OS -> jobs executed in batches, little user interaction
+
+time-sharing OS -> CPU time shared between multiple processes/users
+
+real-time OS -> predictable response within a required time
+used in robotics, cars, industrial systems
+sensor detects event
+       ↓
+RTOS
+       ↓
+respond within required time
+
+distributed OS -> multiple computers work together as one coordinated system
+
+network OS -> provides/manages network resources and services
+
+embedded OS -> designed for a specific device/purpose used in tv, embedded systems such as washing machines , routers, car systems and other iot devices too
 

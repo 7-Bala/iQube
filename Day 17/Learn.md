@@ -49,3 +49,31 @@ File system
     ↓
 Disk
 ```
+
+### Why ?
+
+If every program had unrestricted access to memory and hardware, a buggy or malicious program could:
+
+- modify another program's memory
+- access protected data
+- interfere with hardware
+- crash the entire system
+
+User space -> limited privileges
+Kernel space -> high privileges
+
+
+# Kernel vs User Space
+
+user space -> where normal applications run
+examples -> Chrome, terminal, text editor, Python programs
+
+kernel space -> where the kernel runs
+has high privileges and access to CPU, RAM, devices, filesystem
+
+user space -> limited access
+kernel space -> privileged access
+
+application -> system call -> kernel -> hardware
+
+separation is mainly for security and system stability

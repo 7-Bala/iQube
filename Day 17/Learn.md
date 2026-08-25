@@ -38,3 +38,14 @@ The kernel has much higher privileges and can access system resources such as:
 										Devices
 										Disk
 										Network
+For example, when a program wants to read a file:
+
+```
+Application
+    ↓
+Kernel
+    ↓
+File system
+    ↓
+Disk
+```

@@ -118,3 +118,55 @@ example -> Windows Server, Novell NetWare
 
 embedded OS -> designed for a specific device/purpose used in tv, embedded systems such as washing machines , routers, car systems and other iot devices too
 example -> Embedded Linux, Zephyr, FreeRTOS
+
+### Processes and Threads
+
+program -> a file containing instructions
+process -> a program that is currently running
+thread  -> a unit of execution inside a process
+
+#### Program
+the OS loads the program into memory and starts executing it.
+
+Now it becomes a **process**.
+
+#### Thread
+
+A **thread** is a unit of execution inside a process.
+
+A process can have **one or multiple threads**.
+Process
+├── Thread 1
+├── Thread 2
+└── Thread 3
+
+# Processes and Threads
+
+program -> file containing instructions
+process -> program that is currently running
+thread -> unit of execution inside a process
+
+process -> own virtual address space
+thread -> shares process memory/resources
+
+process
+├── thread 1
+├── thread 2
+└── thread 3
+
+threads share:
+code
+data
+heap
+resources
+
+each thread has its own:
+stack
+registers
+program counter
+
+process -> generally heavier
+thread -> generally lighter
+
+concurrency -> tasks make progress during overlapping periods
+parallelism -> tasks execute at the same time on different CPU cores

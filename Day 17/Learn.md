@@ -95,3 +95,4 @@ wait() -> wait for process
 
 normal function -> stays in user space
 system call -> user space -> kernel space
+

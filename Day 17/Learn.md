@@ -63,7 +63,7 @@ User space -> limited privileges
 Kernel space -> high privileges
 
 
-# Kernel vs User Space
+### Kernel vs User Space
 
 user space -> where normal applications run
 examples -> Chrome, terminal, text editor, Python programs
@@ -77,3 +77,21 @@ kernel space -> privileged access
 application -> system call -> kernel -> hardware
 
 separation is mainly for security and system stability
+
+### System calls
+
+system call -> way for a program to request a service from the kernel
+
+user program -> system call -> kernel -> resource
+
+examples:
+read() -> read data
+write() -> write data
+open() -> open file
+close() -> close file
+fork() -> create process
+exec() -> run program
+wait() -> wait for process
+
+normal function -> stays in user space
+system call -> user space -> kernel space

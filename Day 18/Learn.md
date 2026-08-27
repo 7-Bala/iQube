@@ -13,7 +13,7 @@ init/systemd
    ↓
 Login / Desktop
 
-# Boot Process
+## Boot Process
 
 booting -> process of starting the computer and loading the OS
 
@@ -44,3 +44,4 @@ systemd -> first userspace process on many Linux systems
 PID -> 1
 
 then services start and system becomes ready to use
+
